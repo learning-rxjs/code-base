@@ -1,22 +1,22 @@
-var path = require('path') ;
+var path = require('path');
 var webpack = require('webpack');
 
 
 module.exports = {
   entry: {
-    "index": './src/index.js',
+    "index": './client/src/index.js',
     "vendors": ['react', 'react-dom']
   },
   output: {
-    path: __dirname + '/assets/',
+    path: __dirname + '/client/assets/',
     filename: '[name].js'
   },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.js?$/,
         include: [
-            path.resolve(__dirname, 'src')
+          path.resolve(__dirname, 'client/src')
         ],
         loader: "babel-loader",
         options: {
