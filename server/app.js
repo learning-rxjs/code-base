@@ -4,8 +4,8 @@ const app = express();
 
 app.use(express.static('client/dist'));
 
-app.get('/inspector', (req, res)=> {
-  res.send("Hello, world!");
+app.get('/api', (req, res)=> {
+  res.send("TODO...");
 });
 
 app.listen(3000, ()=> {
