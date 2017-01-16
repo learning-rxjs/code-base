@@ -1,4 +1,4 @@
-# 基于 react + express 的表单练习
+# 基于 react 的表单练习
 
 
 ## 运行方式
