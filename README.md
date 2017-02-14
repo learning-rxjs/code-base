@@ -26,26 +26,29 @@
    - 一个Paper信息
 
    ```json
+ {
+ "name": "react",
+ "description": "考察react基础",
+ "sections": [
    {
-    "name": "react",
-    "description": "考察react基础",
-    "sections": [
-      {
-        "type": "logicPuzzle",
-        "definition": {
-          "easy": 2,
-          "normal": 3,
-          "hard": 4
-        },
-        "type": "homeworkQuiz",
-        "definition": {
-          "quizzes": [
-            "12345" // quizId
-          ]
-        }
-      }
-    ]
+     "type": "logicPuzzle",
+     "definition": {
+       "easy": 2,
+       "normal": 3,
+       "hard": 4
+     }
+   },
+   {
+     "type": "homeworkQuiz",
+     "title": "编程题",
+     "definition": {
+       "quizzes": [
+         "12345" // quizId
+       ]
+     }
    }
+ ]
+}
    ```
    - homeworkQuiz信息
    ```json
