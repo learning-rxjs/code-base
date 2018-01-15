@@ -2,21 +2,14 @@
 
 
 ## 运行方式
-1. 在命令行中运行 
-   ```
-   npm run webpack
-   npm start
-   ```
-
-2. 在浏览器中打开 http://localhost:3000,即可看到运行结果为红色背景的 hello world 页面
-
+1. 请用react-create-app 创建项目的base，不用直接clone 上面的库
 
 ## 练习要求
 
-**重要：本题包含四个篇目：基础，进阶，提高，出栈，做完一个篇目后，需要到 https://jinshuju.net/f/27Zpwx 提交做题记录**
+**重要：本题包含四个篇目：基础，进阶，提高，出栈，做完一个篇目后，需要到 https://jinshuju.net/f/rXjiN5 提交做题记录**
 
 ### 基础篇
-1. 根据图例，用 bootstrap + html 完成切图，尽量少用或者不用自定义样式(自定义样式在less中)
+1. 根据图例，用 ant-design + html 完成切图，尽量少用或者不用自定义样式(自定义样式在less中)
    ![mockup](./mockup.png)
 
 2. 使用 react + redux 完成组卷功能，要求如图例
