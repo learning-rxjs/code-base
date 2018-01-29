@@ -10,7 +10,7 @@
 
 ### 基础篇
 1. 根据图例，用 ant-design + html 完成切图，尽量少用或者不用自定义样式(自定义样式在less中)
-   ![mockup](./mockup.png)
+   ![mockup](./301.png)
 
 2. 使用 react + redux 完成组卷功能，要求如图例
 
